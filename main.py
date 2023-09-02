@@ -1,8 +1,10 @@
+from art import *
 from helper_functions import *
 
 should_loop_continue = True
 
 while should_loop_continue:
+    print(logo)
     first_number = input_number("first")
     continue_with_old_answer = ""
     while continue_with_old_answer != "n":
